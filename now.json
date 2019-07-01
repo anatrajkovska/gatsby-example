@@ -1,0 +1,1 @@
+{"version":2,"name":"gatsby-example","builds":[{"src":"package.json","use":"@now/static-build","config":{"distDir":"public"}}]}
