@@ -1,4 +1,14 @@
 {
 	"version": 2,
-	"name": "gatsby-example-v1"
+	"name": "gatsby-example",
+	"alias": "gatsby-example-alias",
+	"builds": [
+		{
+			"src": "package.json",
+			"use": "@now/static-build",
+			"config": {
+				"distDir": "public"
+			}
+		}
+	]
 }
